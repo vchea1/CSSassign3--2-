@@ -1,0 +1,98 @@
+/* import custom font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* global styles */
+body {
+    font-family: 'Baloo 2', sans-serif;
+    background-color: #ffecf2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: url('images/skittles-pack.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Section Images */
+.section-img {
+    width: 60%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+/* Footer Styling */
+footer {
+    color: white;
+    padding: 30px 20px;
+    background: url('images/skittles-background.jpg') no-repeat center center/cover;
+}
+
+/* Footer Logo */
+.footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact-form input {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* Hover Effects */
+nav ul li a:hover {
+    color: yellow;
+    text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.7);
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* responsive design */
+@media (max-width: 600px) {
+    .hero-image {
+        max-height: 250px;
+    }
+
+    .section-img {
+        width: 80%;
+    }
+}
